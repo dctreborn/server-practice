@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rukaroa/server-practice/issues"
   },
-  "homepage": "https://github.com/rukaroa/server-practice#readme"
+  "homepage": "https://github.com/rukaroa/server-practice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
 }
