@@ -35,7 +35,8 @@ var icecreams = [
 
  app.get("/icecream", function(req, res) {
  	res.render("all-icecream", {
- 		flavor: icecreams}
+ 		flavor: icecreams
+ 	}
  		);
  });
 
