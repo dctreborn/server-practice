@@ -10,12 +10,15 @@ module.exports = function(sequelize, DataTypes) {
     text: {
     	type: DataTypes.STRING,
     	validate: {
-    		notNull: true,
+    		allowNull: false,
     		notEmpty: true,
     		len: [1, 140]
     	}
+    },
+    complete: {
+    	DataTypes.BOOLEAN,
+    	defaultValue: false
     }
-    complete: DataTypes.BOOLEAN
   });
   return Todo;
 };
